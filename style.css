@@ -926,6 +926,66 @@ footer .copyright {
 }
 
 /* responsive */
+@media (max-width: 1024px){
+    #hero{
+            background-position: right 27% center;
+        }
+    #hero h4 {
+            font-size: 30px;
+        }
+    #hero h2{
+        font-size: 50px;
+    } 
+    #hero h1 {
+       font-size: 90px;
+       margin: 20px 0px 20px;
+    }
+    #hero p{
+        font-size: 30px;
+    }
+    #hero button{
+        font-size: 20px;
+        padding: 10px 50px 20px 68px;
+    }
+    #feature .fe-box{
+        width: 28%;
+        height: 10%;
+        margin: 10px;
+    }
+    #sm-banner h4{
+        font-size: 30px;
+    }
+    #sm-banner h2{
+        font-size: 50px;
+    }
+    #sm-banner span{
+        font-size: 30px;
+    }
+    #banner h4{
+        font-size: 20px;
+    }
+    #banner h2{
+        font-size: 40px;
+    }
+    button.white{
+        width: 20%;
+        font-size: 20px;
+    }
+    #sm-banner .banner-box,
+    #sm-banner .banner-box1{
+        width: 100%;
+    }
+    #banner{
+        height: 20vh;
+    }
+    #product1 .pro {
+        min-width: 210px;
+    }
+    #form-details form button {
+       width: 20%;
+    }
+    
+}
 @media (max-width: 799px) {
     .section-p1 {
         padding: 40px 40px;
@@ -1052,6 +1112,7 @@ footer .copyright {
 }
 
 @media (max-width: 477px) {
+
     .section-p1{
         padding: 20px;
     }
@@ -1065,6 +1126,7 @@ footer .copyright {
     #hero {
         padding: 0 20px;
         background-position: 60%;
+        height: auto;
     }
 
     #hero p {
@@ -1082,7 +1144,8 @@ footer .copyright {
     }
 
     #hero h1 {
-        font-size: 42px;
+        font-size: 40px;
+        margin: 0;
     }
     #hero button {
         display: block;
@@ -1107,6 +1170,10 @@ footer .copyright {
     }
     #banner h2 {
         text-align: center;
+        font-size: 26px;
+    }
+    #banner h4{
+        font-size: 18px;
     }
     #sm-banner h4 {
         font-size: 16px;
@@ -1215,10 +1282,24 @@ footer .copyright {
     
     
 }
-@media (max-width:540px){
+/* @media (max-width:540px){
+    #hero{
+        height: 70vh;
+        padding: 0 38px;
+    }
+    #hero h1{
+        font-size: 55px;
+    }
     
     #hero h2{
         font-size: 34px;
+    }
+    #hero h4{
+        font-size: 28px;
+        margin-top: 55px;
+    }
+    #hero p{
+        font-size: 26px;
     }
     #blog {
         width: 100%;
@@ -1263,4 +1344,8 @@ footer .copyright {
     .people {
        margin-top: 20px;
     }
-}
+    #feature .fe-box {
+        width: 40%;
+        
+    }
+} */
