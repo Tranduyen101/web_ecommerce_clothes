@@ -829,9 +829,7 @@ footer .copyright {
 #cart table img{
     width: 70px;
 }
-#cart table td{
-   
-}
+
 #cart table td:nth-child(1){
     width: 100px;
     text-align: center;
@@ -1042,9 +1040,6 @@ footer .copyright {
         width: 100%;
     }
     
-    #cart table {
-        /* width: auto; */
-    }
     #cart-add{
         flex-direction: column;
     }
